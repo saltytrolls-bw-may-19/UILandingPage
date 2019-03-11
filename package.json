@@ -1,0 +1,23 @@
+{
+  "name": "uilandingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saltytrolls-bw-may-19/UILandingPage.git"
+  },
+  "author": "Sam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saltytrolls-bw-may-19/UILandingPage/issues"
+  },
+  "homepage": "https://github.com/saltytrolls-bw-may-19/UILandingPage#readme",
+  "dependencies": {
+    "less": "^3.9.0",
+    "less-watch-compiler": "^1.13.0"
+  }
+}
