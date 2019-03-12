@@ -168,15 +168,21 @@ header button {
     width: 100%;
     margin: 20px auto;
 }
+.Screenshot header {
+    margin-top: 20px;
+}
 .middle h2 {
     padding-left:10%;
     font-size: 4em;
 }
 
 .Screenshot {
-    display: flex;
+    display: block;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-left: 5%;
+    width: 90%;
     padding: 50px 0;
 }
 article {
@@ -184,6 +190,20 @@ article {
     line-height: 200%;
     
 }
+.revheader{
+    margin: 20px 0;
+}
+.trolls {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.reviewers {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
 
 /* THIS IS THE BOTTOM PART */
 .bottom {
@@ -289,4 +309,54 @@ footer ul {
 }
 .icons li {
     margin: 2%;
+}
+
+/* MOBILE */
+
+@media(max-width: 800px) {
+    .home{
+        background-image: url("img/bear.jpg");
+        background-position: center;
+    }
+    .top header h1 {
+        font-size: 5em;
+        padding: 49px 0;
+        color: #df7366;
+        border-bottom: 1px solid black;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .top header p {
+        font-size: 1.5em;
+        padding: 49px 0;
+        border-top: 1px solid black;
+        color: #df7366;
+        text-align: center;
+    }
+    .botImg {
+        display: none;
+    }
+    .botCon {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .Screenshot {
+        text-align: center;
+        align-content: center;
+    }
+
+}
+
+@media(max-width: 500px) {
+    .home{
+        background-image: none;
+    }
+    footer ul {
+        flex-direction: column;
+        text-align: center;
+    }
 }
