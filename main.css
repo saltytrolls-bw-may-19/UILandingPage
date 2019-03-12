@@ -67,7 +67,7 @@ input, select, textarea {
 
 html {
     box-sizing: border-box;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 body {
     display: flex;
@@ -75,7 +75,11 @@ body {
     justify-content: center;
     margin: auto;
     width: 100%;
+}
+.home {
     background-color: #cce2ff;
+    background-image: url("img/troll2.jpg");
+    background-size: cover;
 }
 
 h1, h2 {
@@ -98,14 +102,20 @@ a:hover {
 }
 
 /* THIS IS THE TOP PART */
+
+
 .top {
-    background-image: url("img/header.jpg");
+    display: block;
+    box-align: left; 
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     color: #fff;
     padding: 0 0 10em 0;
     width: 100%;
+}
+nav {
+    background-color: #cce2ff;
 }
 nav ul{
     display: flex;
@@ -117,7 +127,7 @@ nav ul li {
     display: flex;
     padding: 2%;
 }
-.top header {
+header {
     display: flex;
     flex-direction: column;
     padding: 20px;
@@ -176,19 +186,28 @@ article {
 }
 
 /* THIS IS THE BOTTOM PART */
-
 .bottom {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-between;
     width: 100%;
-    align-items: center;
+    margin-bottom: 20px;
+    
     
 }
-.bottom img {
-    width: 95%;
-    height: 250px;
-   padding-left: 2.5%;
+
+.botImg img{
+    width: 45%;
+    height: auto;
+    margin: 0 0 0 45%;
+    border-radius: 10px;
+}
+.botCon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0 25% 0 0;
 }
 
 .BotTitle {
@@ -214,4 +233,60 @@ article {
 	border: 0;
 	cursor: pointer;
 	outline: 0;	
+}
+/* STUDENT */
+.tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.tab-items {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+.tabs-item {
+    display: none;
+    width: 40%;
+  }
+.tabs-item-selected {
+    display: block;
+  }
+
+.tab-link {
+    padding: 20px 25px;
+    font-size: 24px;
+    background-color: #df7366;
+    border-right: 1px solid white;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 2em;
+}
+.tab-link:hover {
+    background-color: #fff;
+    color: black;
+  }
+/* CONTACT */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: grey;
+    margin-top: 10px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+}
+.contact header {
+    margin-top: 0;
+}
+.icons li {
+    margin: 2%;
 }
