@@ -329,6 +329,9 @@ article {
       width: 100%;
       
   }
+  .tabs-item-description .tabs-item-title {
+    margin-bottom: 10px;
+  }
 
 .tab-link {
     padding: 20px 25px;
@@ -370,7 +373,9 @@ footer ul {
 /* MOBILE */
 
 @media(max-width: 800px) {
-
+    .tabs-item-selected {
+        flex-direction: column;
+    }
     .top header h1 {
         font-size: 5em;
         padding: 49px 0;
