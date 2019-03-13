@@ -310,11 +310,23 @@ article {
 }
 .tabs-item {
     display: none;
-    width: 40%;
+    width: 90%;
   }
 .tabs-item-selected {
-    display: block;
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  .tabs-item-selected img{
+      margin-bottom: 70px;
+      border-radius: 2em;
+      padding: 0;
+  }
+  .tabs-item-description {
+      text-align: left;
+      width: 100%;
+      
   }
 
 .tab-link {
