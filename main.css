@@ -155,8 +155,12 @@ textarea {
 
 html {
   box-sizing: border-box;
+<<<<<<< HEAD
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+=======
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+>>>>>>> eddbfc243ea71315d7846650c89cab025c0af701
 }
 body {
   display: flex;
@@ -164,7 +168,11 @@ body {
   justify-content: center;
   /* margin: auto; */
   width: 100%;
+<<<<<<< HEAD
   min-height: 100vh;
+=======
+  min-height: 100%;
+>>>>>>> eddbfc243ea71315d7846650c89cab025c0af701
 }
 .home {
   background-color: #b6d2da;
@@ -245,6 +253,10 @@ header button {
   color: #fff;
   outline: 0;
   margin: 10px;
+<<<<<<< HEAD
+=======
+  margin-top: 100px;
+>>>>>>> eddbfc243ea71315d7846650c89cab025c0af701
   transition: all 0.2s ease-in-out;
 }
 header button:hover {
@@ -445,7 +457,11 @@ footer {
   flex-direction: column;
   align-items: center;
   background-color: rgb(50, 50, 50);
+<<<<<<< HEAD
   margin-top: 10px;
+=======
+  /* margin-top: 10px; */
+>>>>>>> eddbfc243ea71315d7846650c89cab025c0af701
   color: white;
 }
 
@@ -509,3 +525,10 @@ footer ul {
     text-align: center;
   }
 }
+<<<<<<< HEAD
+=======
+
+.content {
+  min-height: 800px;
+}
+>>>>>>> eddbfc243ea71315d7846650c89cab025c0af701
