@@ -304,7 +304,7 @@ footer {
 .top-title {
   text-align: center;
   padding: 10px 0 20px 0;
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.5;
   color: #df7366;
 }
@@ -407,11 +407,11 @@ footer {
     width: 90%;
   }
   .top-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .top-section {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     line-height: 1.8;
   }
 }
